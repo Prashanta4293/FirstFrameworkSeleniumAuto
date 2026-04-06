@@ -14,7 +14,7 @@ class Test_001_Login:
         self.driver.get(self.baseURL)
         act_title = self.driver.title
         self.driver.close()
-        if act_title == "Scheme":
+        if act_title == "Schemes":
             assert True
         else:
             assert False
